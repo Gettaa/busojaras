@@ -1,3 +1,51 @@
+body {
+    background-color: #FFF5E8;
+    max-width: 920px;
+    margin: 0px auto;
+}
+
 #header {
-    background-image: url("maglya.jpg");
+    background-image: url('../pics/maglya.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    height: 270px;
+    max-width: 1080px;
+}
+
+h1, h2 {
+    color: rgb(189, 127, 14);
+}
+
+p, q {
+    padding: 15px;
+    text-align: justify;
+    text-indent: 1em;
+    margin: 0px;
+}
+
+img {
+    min-width: 300px;
+    max-width: 400px;
+    border: 1px #FFEBD0;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    padding: 5px;
+}
+
+.balra {
+    float: left;
+}
+
+.jobbra {
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+    list-style-image: url('../pics/jel.png');
+}
+
+#footer {
+    background-color: #FFEBD0;
 }
